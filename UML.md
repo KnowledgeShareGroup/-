@@ -4,10 +4,13 @@
 事物是对模型中具有代表性的成分的抽象
 
 #### 结构事物
-如类Class、接口Interface、协作Collaboration、用例UseCase、主动类ActiveClass、组件Component、节点Node
-
+结构事物是模型中静态部分，如类Class、接口Interface、协作Collaboration、用例UseCase、主动类ActiveClass、组件Component、节点Node
 #### 行为事物
-交互Interaction、状态机Statemachine、分组事物(包，package)、注释事物(注解，Note)。
+行为事物是模型中动态部分，交互Interaction、状态机Statemachine、分组事物(包，package)、注释事物(注解，Note)
+#### 分组事物
+可以把分组事物看成是一个盒子，模型可以在其中被分解。目前只有一种分组事物，即包 Package。结构事物，动作事物都有可能放在一个包中
+#### 注释事物
+注释事物是UML模型的解释部分
 
 ### 关系
 关系用来把事物结合在一起
